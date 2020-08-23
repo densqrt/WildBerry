@@ -22,6 +22,4 @@ class ImageView: UIViewController {
         return imageView
         
     }
-   
-
 }

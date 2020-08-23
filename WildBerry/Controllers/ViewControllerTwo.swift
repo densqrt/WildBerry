@@ -9,13 +9,13 @@
 import UIKit
 
 class ViewControllerTwo: UIViewController {
-
+    
     lazy var chosenImage = UIImage()
     var imageView = UIImageView()
     var priceLabel = UILabel()
     var acceptButton = UIButton()
     var declineButton = UIButton()
-   
+    
     
     
     override func viewDidLoad() {
@@ -26,14 +26,14 @@ class ViewControllerTwo: UIViewController {
         self.imageView = ImageView.instance.imageViewCreation()
         self.imageView.image = self.chosenImage
         self.view.addSubview(self.imageView)
-       
+        
         priceLabelCreation()
         acceptButtonCreation()
         declineButtonCreation()
-
+        
         
     }
-
+    
 }
 
 //MARK: - Methods
@@ -69,6 +69,11 @@ extension ViewControllerTwo {
         
         self.acceptButton.addTarget(self, action: #selector(presentAlert), for: .touchUpInside)
         
+        self.acceptButton.setTitle("Share with everybody!".uppercased(), for: .normal)
+        self.acceptButton.removeTarget(self, action: #selector(presentAlert), for: .touchUpInside)
+        self.acceptButton.addTarget(self, action: #selector(handlerShare), for: .touchUpInside)
+        
+        
         
         self.view.addSubview(self.acceptButton)
     }
@@ -85,7 +90,12 @@ extension ViewControllerTwo {
         self.view.addSubview(self.declineButton)
         
     }
-  
+    
+    func share(info: Activity) {
+        let activityViewController = UIActivityViewController(activityItems: [info.image, info.orderMessage], applicationActivities: nil)
+        activityViewController.excludedActivityTypes = [.airDrop]
+        self.present(activityViewController, animated: true, completion: nil)
+    }
     
 }
 
@@ -106,6 +116,11 @@ extension ViewControllerTwo {
         
     }
     
+    @objc func handlerShare() {
         
+        let obj = Activity()
+        obj.image = self.imageView.image!
+        self.share(info: obj)
+    }
 }
 

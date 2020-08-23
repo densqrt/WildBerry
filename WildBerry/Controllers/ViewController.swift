@@ -45,7 +45,7 @@ extension ViewController {
         self.segmentedControl.selectedSegmentTintColor = .orange
         self.segmentedControl.backgroundColor = .white
         self.segmentedControl.selectedSegmentIndex = 0
-    
+        
         self.view.addSubview(self.segmentedControl)
     }
     
