@@ -88,3 +88,15 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+WildBerry/Controllers/ViewController_BACKUP_24779.swift
+WildBerry/Controllers/ViewController_BACKUP_24878.swift
+WildBerry/Controllers/ViewController_BACKUP_24979.swift
+WildBerry/Controllers/ViewController_BASE_24779.swift
+WildBerry/Controllers/ViewController_BASE_24878.swift
+WildBerry/Controllers/ViewController_BASE_24979.swift
+WildBerry/Controllers/ViewController_LOCAL_24779.swift
+WildBerry/Controllers/ViewController_LOCAL_24878.swift
+WildBerry/Controllers/ViewController_LOCAL_24979.swift
+WildBerry/Controllers/ViewController_REMOTE_24779.swift
+WildBerry/Controllers/ViewController_REMOTE_24878.swift
+WildBerry/Controllers/ViewController_REMOTE_24979.swift
