@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("master print")
+        
+        print("new master print")
         
         self.view.backgroundColor = .purple
         self.view.addSubview(Labels.instance.labelCreation(text: "Look at them!"))
