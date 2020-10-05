@@ -16,6 +16,7 @@
 		9262DDE524EE92C0003F2AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9262DDE324EE92C0003F2AC7 /* LaunchScreen.storyboard */; };
 		9262DDF024EE93E4003F2AC7 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDEF24EE93E4003F2AC7 /* ViewControllerTwo.swift */; };
 		9262DDF324EFA75D003F2AC7 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDF224EFA75D003F2AC7 /* Labels.swift */; };
+		929A1232252B37C1001D309E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 929A1231252B37C1001D309E /* .gitignore */; };
 		92F3D2C524F2AB3800D01DBD /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3D2C424F2AB3800D01DBD /* Activity.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		9262DDE624EE92C0003F2AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9262DDEF24EE93E4003F2AC7 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		9262DDF224EFA75D003F2AC7 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		929A1231252B37C1001D309E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		92F3D2C424F2AB3800D01DBD /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +50,7 @@
 		9262DDCC24EE92BD003F2AC7 = {
 			isa = PBXGroup;
 			children = (
+				929A1231252B37C1001D309E /* .gitignore */,
 				9262DDD724EE92BD003F2AC7 /* WildBerry */,
 				9262DDD624EE92BD003F2AC7 /* Products */,
 			);
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929A1232252B37C1001D309E /* .gitignore in Resources */,
 				9262DDE524EE92C0003F2AC7 /* LaunchScreen.storyboard in Resources */,
 				9262DDE224EE92C0003F2AC7 /* Assets.xcassets in Resources */,
 				9262DDE024EE92BD003F2AC7 /* Main.storyboard in Resources */,
