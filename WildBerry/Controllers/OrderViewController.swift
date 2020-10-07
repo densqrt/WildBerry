@@ -1,5 +1,5 @@
 //
-//  ViewControllerTwo.swift
+//  OrderViewController.swift
 //  WildBerry
 //
 //  Created by Denis on 20/8/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewControllerTwo: UIViewController {
+class OrderViewController: UIViewController {
     
     lazy var chosenImage = UIImage()
     var imageView = UIImageView()
@@ -37,7 +37,7 @@ class ViewControllerTwo: UIViewController {
 }
 
 //MARK: - Methods
-extension ViewControllerTwo {
+extension OrderViewController {
     
     func priceLabelCreation() {
         
@@ -101,7 +101,7 @@ extension ViewControllerTwo {
 
 //MARK: - Actions
 
-extension ViewControllerTwo {
+extension OrderViewController {
     
     @objc func goBack() {
         self.dismiss(animated: true, completion: nil)

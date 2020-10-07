@@ -10,11 +10,11 @@
 		925476F324F04385000A08D4 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925476F224F04385000A08D4 /* ImageView.swift */; };
 		9262DDD924EE92BD003F2AC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDD824EE92BD003F2AC7 /* AppDelegate.swift */; };
 		9262DDDB24EE92BD003F2AC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDDA24EE92BD003F2AC7 /* SceneDelegate.swift */; };
-		9262DDDD24EE92BD003F2AC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDDC24EE92BD003F2AC7 /* ViewController.swift */; };
+		9262DDDD24EE92BD003F2AC7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDDC24EE92BD003F2AC7 /* MainViewController.swift */; };
 		9262DDE024EE92BD003F2AC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9262DDDE24EE92BD003F2AC7 /* Main.storyboard */; };
 		9262DDE224EE92C0003F2AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9262DDE124EE92C0003F2AC7 /* Assets.xcassets */; };
 		9262DDE524EE92C0003F2AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9262DDE324EE92C0003F2AC7 /* LaunchScreen.storyboard */; };
-		9262DDF024EE93E4003F2AC7 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDEF24EE93E4003F2AC7 /* ViewControllerTwo.swift */; };
+		9262DDF024EE93E4003F2AC7 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDEF24EE93E4003F2AC7 /* OrderViewController.swift */; };
 		9262DDF324EFA75D003F2AC7 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262DDF224EFA75D003F2AC7 /* Labels.swift */; };
 		929A1232252B37C1001D309E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 929A1231252B37C1001D309E /* .gitignore */; };
 		92F3D2C524F2AB3800D01DBD /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3D2C424F2AB3800D01DBD /* Activity.swift */; };
@@ -25,12 +25,12 @@
 		9262DDD524EE92BD003F2AC7 /* WildBerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildBerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9262DDD824EE92BD003F2AC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9262DDDA24EE92BD003F2AC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9262DDDC24EE92BD003F2AC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9262DDDC24EE92BD003F2AC7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9262DDDF24EE92BD003F2AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9262DDE124EE92C0003F2AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9262DDE424EE92C0003F2AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9262DDE624EE92C0003F2AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9262DDEF24EE93E4003F2AC7 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		9262DDEF24EE93E4003F2AC7 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		9262DDF224EFA75D003F2AC7 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 		929A1231252B37C1001D309E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		92F3D2C424F2AB3800D01DBD /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
@@ -89,8 +89,8 @@
 		9262DDED24EE9321003F2AC7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9262DDDC24EE92BD003F2AC7 /* ViewController.swift */,
-				9262DDEF24EE93E4003F2AC7 /* ViewControllerTwo.swift */,
+				9262DDDC24EE92BD003F2AC7 /* MainViewController.swift */,
+				9262DDEF24EE93E4003F2AC7 /* OrderViewController.swift */,
 				92F3D2C424F2AB3800D01DBD /* Activity.swift */,
 			);
 			path = Controllers;
@@ -141,7 +141,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Denis;
 				TargetAttributes = {
 					9262DDD424EE92BD003F2AC7 = {
@@ -187,12 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				925476F324F04385000A08D4 /* ImageView.swift in Sources */,
-				9262DDDD24EE92BD003F2AC7 /* ViewController.swift in Sources */,
+				9262DDDD24EE92BD003F2AC7 /* MainViewController.swift in Sources */,
 				92F3D2C524F2AB3800D01DBD /* Activity.swift in Sources */,
 				9262DDF324EFA75D003F2AC7 /* Labels.swift in Sources */,
 				9262DDD924EE92BD003F2AC7 /* AppDelegate.swift in Sources */,
 				9262DDDB24EE92BD003F2AC7 /* SceneDelegate.swift in Sources */,
-				9262DDF024EE93E4003F2AC7 /* ViewControllerTwo.swift in Sources */,
+				9262DDF024EE93E4003F2AC7 /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +244,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -304,6 +305,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

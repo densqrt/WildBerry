@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     var imageView = UIImageView()
     var confirmButton = UIButton()
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
 
 //MARK: - Methods
 
-extension ViewController {
+extension MainViewController {
     
     func segmentedControlCreation() {
         self.segmentedControl.frame = CGRect(x: 62, y: 451, width: 250, height: 31)
@@ -68,7 +68,7 @@ extension ViewController {
 
 //MARK: - Actions
 
-extension ViewController {
+extension MainViewController {
     @objc func imageChange(target: UISegmentedControl) {
         if target.isEqual(self.segmentedControl) {
             let index = target.selectedSegmentIndex
@@ -77,7 +77,7 @@ extension ViewController {
     }
     
     @objc func infoShow() {
-        let vc = ViewControllerTwo()
+        let vc = OrderViewController()
         vc.chosenImage = self.imageView.image!
         self.present(vc, animated: true, completion: nil)
     }
